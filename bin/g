@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# Instead of erroring if someone runs `g g whatever`, strip off the initial
+# g and re-run
+
+# Use execs here so we propagate out any error statuses
+if [[ "$1" == 'g' ]]; then
+  shift
+  exec git "$@"
+fi
+
+if [[ $# -gt 0 ]]; then
+  exec git "$@";
+else
+  exec git status;
+fi
