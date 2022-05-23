@@ -17,6 +17,7 @@ Collected snippets and scripts from the commandline-fu channel on coffeeops slac
 | Script          | Description                   | Author      |
 | --------------- | ----------------------------- | ----------- |
 | `g`             | `git` helper for lazy typists | [@Hefeweizen](https://github.com/Hefeweizen) |
+| `middle`        | Snips lines out of the the middle of a file and dumps them to stdout | [@Hefeweizen](https://github.com/Hefeweizen) |
 
 
 ## Other Script Collections
