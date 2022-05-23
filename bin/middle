@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#
+# Originally from #commandline-fu on coffeeops slack
+#
+# usage:  middle 5,10 README.md
+# or: middle /re1/,/re2/
+# Nice for comparing two parts of a file:
+# diff -y <(middle 8,20 file.txt) <(middle 58,70 file.txt)
+
+__offset=$1;
+shift;
+sed -n "${__offset}p" "$@";
+unset __offset
