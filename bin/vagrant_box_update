@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+# Usage: update all installed vagrant base boxes
+
+for box in $(vagrant box list | cut -f1 -d' ');
+do
+    vagrant box update --box "${box}" --provider virtualbox;
+done;
+vagrant box prune
