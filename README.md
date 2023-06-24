@@ -19,6 +19,8 @@ Collected snippets and scripts from the commandline-fu channel on coffeeops slac
 | `g`             | `git` helper for lazy typists | [@Hefeweizen](https://github.com/Hefeweizen) |
 | `middle`        | Snips lines out of the the middle of a file and dumps them to stdout | [@Hefeweizen](https://github.com/Hefeweizen) |
 | `vagrant_box_update` | update installed vagrant boxes | [@Hefeweizen](https://github.com/Hefeweizen) |
+| `git wip`       | capture in-progress file changes | [@Hefeweizen](https://github.com/Hefeweizen) |
+| `git brcl`      | "branch clean" - rm various copies of a branch (e.g. foo-wip; origin/foo) | [@Hefeweizen](https://github.com/Hefeweizen) |
 
 
 ## Other Script Collections
