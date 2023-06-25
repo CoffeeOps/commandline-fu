@@ -7,7 +7,7 @@
 # This was initial written to clean up branches in a personal fork, but it
 # has been extended to clean up foo-wip branches from `git-qip` in this repo.
 
-# in an environment where PRs are made from personal forks, adjust this as neccessary
+# in an environment where PRs are made from personal forks, adjust this as necessary
 # example, at previous company, this was <username>
 github_source=origin
 
